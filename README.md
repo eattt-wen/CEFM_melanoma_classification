@@ -113,12 +113,14 @@ We used a curated subset of public ISIC data: Total 3,578 training images (646 m
 ## Data Preparation
 
 1. **Provided Dataset**
-   The dataset is provided as a ZIP archive located in the `data/` directory:
+   The dataset is located directly under the `data/` directory:
+
    ```bash
    data/Lesion/image/
    data/Clinical/data/train_set_cleaned.csv
    data/Clinical/data/test_set_cleaned.csv
    data/vit_model/best_model.pth
+Currently, only 15 sample images are provided in `data/Lesion image/` for demonstration purposes.
 
 2. **Using Your Own Dataset**  
 To swap in a different dataset:
